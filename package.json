@@ -1,0 +1,26 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "freeCodeCamp API project - File Metadata Microservice",
+  "engines": {
+    "node": "7.8.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotjz/file-metadata-microservice.git"
+  },
+  "author": "elliotjz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotjz/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/elliotjz/file-metadata-microservice#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  }
+}
