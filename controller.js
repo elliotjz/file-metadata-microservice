@@ -1,8 +1,11 @@
 
+let express = require('express');
 let multer = require('multer');
 let upload = multer({dest: 'uploads/'});
 
 module.exports = function(app) {
+
+	app.use('/routes', express.static('routes'));
 
 	app.get('/', function(req, res) {
 		res.sendFile(__dirname + '/routes/index.html');

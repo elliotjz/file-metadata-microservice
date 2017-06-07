@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+		<link rel="stylesheet" href="routes/style.css">
 	</head>
 	<body>
 		<h1>File Metadata Microservice</h1>
 		<p>Submit a file to see it's size.</p>
 		<form method="post" enctype="multipart/form-data">
-			<input type="file" name="userFile">
-			<input type="submit" value="Upload File" name="submit">
+			<label for="file-upload">Browse</label>
+			<input id="file-upload" type="file" name="userFile">
+			<input type="submit" value="Upload File" name="submit" class="submit">
 		</form>
 	</body>
 </html>

@@ -1,0 +1,22 @@
+body {
+	background: #e2edff;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 30vh;
+}
+
+.submit {
+	border: 1px solid #ccc;
+	padding: 6px 12px;
+	cursor: pointer;
+}
+
+#file-upload {
+	display: none;
+}
+
+label {
+	border: 1px solid #ccc;
+	padding: 6px 12px;
+	cursor: pointer;
+}
